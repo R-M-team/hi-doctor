@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>Hi Doctor!</title>
+</head>
+<body>
+    <header>
+        <div class="search-bar sticky-top">
+            <form action="">
+                <i class="top-logo">
+                    <img src="./img/title-logo.png" alt="">
+                </i><button class="search-btn"><img src="./img/search.png" alt=""></button>
+                <input class="search-box" placeholder="جستجو کردن..." type="text">
+                
+
+            </form>
+        </div>
+
+
+        <div class="horizontal-scroll">
+            <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i class="fas fa-chevan-left"><img src="./img/arrow-left.svg" alt=""></i></button>
+            <button class="btn-scroll" id="btn-scroll-right" onclick="scrollHorizontally(-1)"><i class="fas fa-chevan-right"><img src="./img/arrow-right.svg" alt=""></i></button>
+            <div class="item-container">
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            تماس با ما
+                        </div>
+
+                    </a>
+                    
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                           رژیم غذایی آنلاین
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            پروفایل پزشکان
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            کرونا
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            طب سنتی و 
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            جنسی 
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            زیبایی
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            سلامتی
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            بیماری ها
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            دارو ها
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            روانشناسی 
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            زنان و زایمان
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                            حیوانات
+                        </div>
+
+                    </a>
+                </div>
+                <div class="item-circle">
+                    <a href="#">
+                        <div class="item">
+                       
+                           مقالات
+                        </div>
+
+                    </a>
+                </div>
+            </div>
+        
+        </div>
+    </header>
+    <div class="last-posts">
+        <div class="h-last-posts">
+            <h1>
+                آخرین مطالب 
+            </h1>
+            <button>
+                مشاهده همه >
+            </button>
+            <hr>
+        </div>
+        <div class="posts-cards">
+            <div class="cards">
+                <div class="image">
+                    <img src="./img/post-card1.webp" alt="">
+                </div>
+                <div class="title">
+                    <h1>مطالب پزشکی</h1>
+                </div>
+                <div class="des">
+                    <p>
+                        
+بهترین مکمل امگا ۳،بهترین قرص امگا و روغن ماهی
+
+امگا ۳ یکی از اسیدهای چرب اشباع نشده است که از روغن ماهی های چرب مانند سالمون یا شاه ماهی استخراج می شود. از آنجایی که بدن انسان قادر به ساخت این ماده...
+رپرتاژ 
+                    </p>
+                    <div class="btn-card">
+                        <a href=""><img src="./img/share-card.png" alt=""></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <div class="cards">
+                <div class="image">
+                    <img src="./img/last-post2.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h1>مطالب پزشکی</h1>
+                </div>
+                <div class="des">
+                    <p>
+                        
+بهترین مکمل امگا ۳،بهترین قرص امگا و روغن ماهی
+
+امگا ۳ یکی از اسیدهای چرب اشباع نشده است که از روغن ماهی های چرب مانند سالمون یا شاه ماهی استخراج می شود. از آنجایی که بدن انسان قادر به ساخت این ماده...
+رپرتاژ 
+                    </p>
+                    <div class="btn-card">
+                        <a href=""><img src="./img/share-card.png" alt=""></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <div class="cards">
+                <div class="image">
+                    <img src="./img/post-card3.webp" alt="">
+                </div>
+                <div class="title">
+                    <h1>مطالب پزشکی</h1>
+                </div>
+                <div class="des">
+                    <p>
+                        
+بهترین مکمل امگا ۳،بهترین قرص امگا و روغن ماهی
+
+امگا ۳ یکی از اسیدهای چرب اشباع نشده است که از روغن ماهی های چرب مانند سالمون یا شاه ماهی استخراج می شود. از آنجایی که بدن انسان قادر به ساخت این ماده...
+رپرتاژ 
+                    </p>
+                    <div class="btn-card">
+                        <a href=""><img src="./img/share-card.png" alt=""></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <div class="cards">
+                <div class="image">
+                    <img src="./img/post-card4.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h1>مطالب پزشکی</h1>
+                </div>
+                <div class="des">
+                    <p>
+                        
+بهترین مکمل امگا ۳،بهترین قرص امگا و روغن ماهی
+
+امگا ۳ یکی از اسیدهای چرب اشباع نشده است که از روغن ماهی های چرب مانند سالمون یا شاه ماهی استخراج می شود. از آنجایی که بدن انسان قادر به ساخت این ماده...
+رپرتاژ 
+                    </p>
+                    <div class="btn-card">
+                        <a href=""><img src="./img/share-card.png" alt=""></a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            <div class="cards">
+                <div class="image">
+                    <img src="./img/post-card5.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h1>مطالب پزشکی</h1>
+                </div>
+                <div class="des">
+                    <p>
+بهترین مکمل امگا ۳،بهترین قرص امگا و روغن ماهی
+
+امگا ۳ یکی از اسیدهای چرب اشباع نشده است که از روغن ماهی های چرب مانند سالمون یا شاه ماهی استخراج می شود. از آنجایی که بدن انسان قادر به ساخت این ماده...
+رپرتاژ !
+                    </p>
+                    <div class="btn-card">
+                        <a href=""><img src="./img/share-card.png" alt=""></a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="page-number">
+        <nav class="page-number" aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link list-group-item-success" href="#">صفحه قبل ></a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">4</a></li>
+              <li class="page-item"><a class="page-link" href="#">5</a></li>
+              <li class="page-item"><a class="page-link" href="#">6</a></li>
+              <li class="page-item">  .  .  .  </li>
+              <li class="page-item"><a class="page-link" href="#">29</a></li>
+              <li class="page-item"><a class="page-link" href="#">30</a></li>
+              <li class="page-item"><a class="page-link" href="#">31</a></li>
+              <li class="page-item"><a class="page-link" href="#">32</a></li>
+              <li class="page-item"><a class="page-link list-group-item-success" href="#">>صفحه بعد</a></li>
+            </ul>
+          </nav>
+    </div>
+    <div class="doctors-bult">
+        <div class="h-last-posts">
+            <h1>ساختمان پزشکان</h1>
+        </div>
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="./img/bult1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="card-title">کلینیک جراحی ، زیبایی و لیزر</h2>
+                    <p class="card-text">اندرزگو نرسیده به قیطریه کیخسرو</p>
+                </div>
+                <div class="card-footer text-center border-1">
+                    <button type="button" class="btn btn-outline-success">مشاهده</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                  <img src="./img/bult2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">کلینیک جراحی ، زیبایی و لیزر</h2>
+                    <p class="card-text">اندرزگو نرسیده به قیطریه کیخسرو</p>
+                  </div>
+                  <div class="card-footer text-center border-1">
+                      <button type="button" class="btn btn-outline-success">مشاهده</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="./img/bult3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h2 class="card-title">کلینیک جراحی ، زیبایی و لیزر</h2>
+                    <p class="card-text">اندرزگو نرسیده به قیطریه کیخسرو</p>
+                  </div>
+                  <div class="card-footer text-center border-1">
+                      <button type="button" class="btn btn-outline-success">مشاهده</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- News  -->
+          <div class="h-last-posts">
+            <h1>اخبار داغ</h1>
+
+          </div>
+          
+          <div class="news row row-cols-md-2 row-cols-md-4 g-4">
+            <div class="card" style="width: 20rem; height:40rem">
+                <div class="card-body">
+                    <h2 class="card-title">با فواید روغن نارگیل آشنا شوید</h2>
+                  <div class="image">
+                    <img class="background-image-card" src="./img/fruits1.jpg" alt="">
+                  </div>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="footer-card">
+                  <button type="button" class="btn btn-outline-success alert-success more-btn"><a href="#" class="card-link">ادامه مطالب></a></button>
+                  <a href="#"><img class="liked-btn"  src="./img/liked.png" alt=""></a>
+                  <a href="#"><img class="liked-btn share" src="./img/share.png" alt=""></a>
+                  </div>
+                  </div>
+                </div>
+                <div class="card" style="width: 20rem; height:40rem">
+                    <div class="card-body">
+                        <h2 class="card-title">با فواید روغن نارگیل آشنا شوید</h2>
+                      <div class="image">
+                        <img class="background-image-card" src="./img/fruits2.jpg" alt="">
+                      </div>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button" class="btn btn-outline-success alert-success more-btn"><a href="#" class="card-link">ادامه مطالب ></a></button>
+                      <a href="#"><img class="liked-btn" src="./img/liked.png" alt=""></a>
+                      <a href="#"><img class="liked-btn share" src="./img/share.png" alt=""></a>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 20rem; height:40rem;">
+                        <div class="card-body">
+                          <h2 class="card-title">با فواید روغن نارگیل آشنا شوید</h2>
+                          <div class="image">
+                            <img class="background-image-card" src="./img/fruits3.jpg" alt="">
+                          </div>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button type="button" class="btn btn-outline-success alert-success more-btn"><a href="#" class="card-link">ادامه مطالب></a></button>
+                          <a href="#"><img class="liked-btn" src="./img/liked.png" alt=""></a>
+                          <a href="#"><img class="liked-btn share" src="./img/share.png" alt=""></a>
+                          </div>
+                        </div>
+                    <div class="card" style="width: 20rem; height:40rem;">
+                        <div class="card-body">
+                          <h2 class="card-title">با فواید روغن نارگیل آشنا شوید</h2>
+                          <div class="image">
+                            <img class="background-image-card" src="./img/fruits4.jpg" alt="">
+                          </div>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button type="button" class="btn btn-outline-success alert-success more-btn"><a href="#" class="card-link">ادامه مطالب></a></button>
+                          <a href="#"><img class="liked-btn" src="./img/liked.png" alt=""></a>
+                          <a href="#"><img class="liked-btn share" src="./img/share.png" alt=""></a>
+                          </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+              </div>
+              
+                
+              </div>
+            
+          </div>
+    </div>
+    
+    </div>
+    <div class="small-cards">
+        <ul class="list-group list-group-flush d-flex">
+            <li class="list-group-item">
+                <div class="small-card">
+                    <img class="small-card-img" src="./img/people1.jpg" alt="Avatar">
+                    <div class="container">
+                      <h4><b>دکتر گلدیات</b></h4>
+                      <p>متخصص روانپزشکی</p>
+                    </div>
+                  </div> 
+            </li>
+            <li class="list-group-item">
+                 <div class="small-card">
+                <img class="small-card-img" src="./img/people2.jpg" alt="Avatar">
+                <div class="container">
+                  <h4><b>دکتر گلدیات</b></h4>
+                  <p>متخصص روانشناسی</p>
+                </div>
+              </div> </li>
+            <li class="list-group-item"> 
+                <div class="small-card">
+                <img class="small-card-img" src="./img/people3.jpg" alt="Avatar">
+                <div class="container">
+                  <h4><b>دکتر گلدیات</b></h4>
+                  <p>متخصص روانشناسی</p>
+                </div>
+              </div> </li>
+          </ul>
+    </div>
+    <!-- News 2 -->
+    <div class="news2">
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active alert-warning" aria-current="page" href="#">پربازدید ترین مطالب</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link alert-warning" href="#">محبوب ترین مطالب</a>
+            </li>
+          </ul>
+          <div class="collap">
+            <ul >
+                <li><a href="#">بهترین کرم های ضد آفتاب برای انواع پوست/1 </a></li>
+                <li><a href="#">بهترین کرم های ضد آفتاب برای انواع پوست/2 </a></li>
+                <li><a href="#">بهترین کرم های ضد آفتاب برای انواع پوست/3 </a></li>
+                <li><a href="#">بهترین کرم های ضد آفتاب برای انواع پوست/ 4</a></li>
+                <li><a href="#">بهترین کرم های ضد آفتاب برای انواع پوست/5 </a></li>
+                <li><a href="#">بهترین کرم های ضد آفتاب برای انواع پوست/1 </a></li>
+                <li><a href="#">بهترین کرم های ضد آفتاب برای انواع پوست/2 </a></li>
+                <li><a href="#">بهترین کرم های ضد آفتاب برای انواع پوست/3 </a></li>
+                <li><a href="#">بهترین کرم های ضد آفتاب برای انواع پوست/ 4</a></li>
+                <li><a href="#">بهترین کرم های ضد آفتاب برای انواع پوست/5 </a></li>
+                      
+                
+            </ul>
+          </div>
+    </div>
+    <div class="footer">
+        <div class="row-foot">
+            <ul><h3>بیشتر بدانید</h3>
+                <li>تغذیه</li>
+                <li>زیبایی ريال پوست ، مو</li>
+                <li>ورزش و سلامتی</li>
+            </ul>
+            <ul>
+                <h3>موضوعات پرطرفدار</h3>
+                <li>روانشناسی</li>
+                <li>اخبار پزشکی</li>
+                <li>بیماریها</li>
+            </ul>
+            <ul>
+                <h3>دسته بندی ها</h3>
+                <li>اخبار پزشکی</li>
+                <li>بیماری ها</li>
+                <li>دارو ها</li>
+                <li>دانرو راهنمای شهر</li>
+                <li>وبلاگ دانرو</li>
+            </ul>
+            <div class="instagram">
+                <i><img src="./img/title-logo.png" alt=""></i>
+                <h5>دکتر سلام در شبکه های اجتماعی </h5>
+                <i><a href="#"><img src="./img/instagram.png" alt=""></a></i>
+            </div>
+        </div>
+       
+        <p>
+            مجری انحصاری نیتیو، سنجاق
+            
+            کلیه حقوق محفوظ و متعلق به مجله پزشکی دکتر سلام است بازنشر مطالب فقط با ذکر لینک مستقیم مجاز است
+            </p>
+        
+    </div>
+    
+    <script>
+        // Navbar scroll
+        let currentScrollPosition =0 ;
+        let scrollAmount = 320;
+        const sCont = document.querySelector(".item-container");
+        const hScroll = document.querySelector(".horizontal-scroll");
+        const btnScrollleft = document.querySelector("#btn-scroll-left");
+        const btnScrollright = document.querySelector("#btn-scroll-right");
+        btnScrollleft.style.opacity = "0";
+        let maxScroll = -sCont.offsetWidth + hScroll.offsetWidth ; 
+        function scrollHorizontally(val){
+            currentScrollPosition +=(val * scrollAmount);
+            if(currentScrollPosition > 0){
+                currentScrollPosition=0;
+                btnScrollleft.style.opacity = "0";
+            }
+            else{
+                btnScrollleft.style.opacity="1";
+            }
+            if(currentScrollPosition  < maxScroll){
+                currentScrollPosition = maxScroll ;
+                btnScrollright.style.opacity = "0";
+            }
+            else{
+                btnScrollright.style.opacity = "1";
+            }
+            sCont.style.left = currentScrollPosition + "px";
+        }
+        // End navbar scroll
+        // Like button in news 
+
+        // End like button in news 
+    </script>
+</body>
+</html>
